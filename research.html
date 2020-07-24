@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8" />
+        <link rel="icon" href="favicon.ico">
+        <title>Haoran Zhu: research</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <img class="my_photo" src="images/me.jpg" alt="a photo of me" width=120px>
+            <h1 class="name_en"><a class="name" href="index">Haoran (Henry) Zhu</a></h1>
+            <h2 class="name_ch" lang="zh-Hans"><a class="name" id="ch" href="index">朱浩然</a></h2>
+            <nav>
+                <ul>
+                    <li class="home"><a href="index">Home</a></li>
+                    <li class="research"><a href="research">Research</a></li>
+                    <li class="code"><a href="code">Code</a></li>
+                    <li class="aboutme"><a href="aboutme">About Me</a></li>
+                </ul>
+            </nav>
+            <h1 class="page_name">Research</h1>
+        </header>
+
+        <div class="content">
+            <p>This pages states some details about the research work I am currently doing and have done.</p>
+            <br>
+            <p class="current_lab">Right now, I am working under
+             <a class="research_pages" href="http://www.cs.virginia.edu/~hs6ms/" rel="external" target="_blank">
+                Dr. Haiying shen</a> in
+             
+            <a class="research_pages" href="https://engineering.virginia.edu/sites/default/files/shen.pdf"
+             rel="external" target="_blank">
+                Pervasive Communications Laboratory</a>.
+                
+                My work is supervised by 
+             <a class="research_pages" href="http://www.cs.virginia.edu/~as4mz/" rel="external" target="_blank">
+            Ankur Sarker</a>. We are focusing on <strong>smart building designs</strong>. </p>
+            
+            <!-- Project 1 -->
+            <p>I gather temperature data (temperature, humidity, 
+            etc) online and processing them. Combined with historical occupancy data, they will then be fed to the occupancy model to improve its
+            accuracy. </p>
+
+            <p><u>Update</u> (08/29/2019): Now we have moved on to the stage of improving the prediction accuracy of our machine learning
+            model. We are trying different ways (criteria) of selecting training data. Selected data is then fed to the model to make 
+            predictions of parameters such as temperature and humidity in the office.</p>
+
+             <p>Below are some papers that may give you a basic idea of the concept of smart building designs. </p>
+             <h4 class="startOfPaper">Bruna Faitão Balvedi, Enedir Ghisi, Roberto Lamberts </h4>
+             <li class="research_papers"><a class="research_papers" href="research_pdf/smart_building1.pdf" rel="external" target="_blank">
+                 A Review of Occupant Behaviour in Residential Buildings</a>, 
+                 <em>Energy and Buildings</em>, 2018.</li>
+
+             <h4>Varick L. Erickson, Miguel A. Carreira-Perpinan, Alberto E. Cerpa</h4>
+             <li class="research_pages"><a class="research_papers" href="research_pdf/smart_building2.pdf" rel="external" target="_blank">
+                 Occupancy Modeling and Prediction for Building Energy Management</a>, 
+                 <em>ACM Transactions on Sensor Networks</em>, 2014.</li>
+
+            <h4>Tianzhen Hong, Sarah C. Taylor-Lange, Simona D'Oca, Da Yan, Stefano P. Corgnati</h4>
+            <li class="research_papers"><a class="research_papers" href="research_pdf/smart_building3.pdf" rel="external" target="_blank">
+                Advances in Research and Applications of Energy-Related Occupant Behavior in Buildings</a>, 
+                <em>Energy and Buildings</em>, 2015.</li>
+
+            <hr class="research_break">
+
+            <!-- Project 2 -->
+            <p>Before the smart building design project, I was working with <a href="https://www.cs.virginia.edu/~hw8c/"
+                class= "research_pages" rel="external" target="_blank">Haoyu Wang</a> and Zetian Liu on a Hadoop MapReduce project.</p>
+            
+            <p>We basically modified the source code of MapReduce so that we could implement a fully distributed load rebalancing
+                algorithm on MapReduce. The ultimate goal is to realize selective data replications among diffetent datacenters.</p>
+
+            <p>The effectiveness of the algorithm is thoroughly discussed and tested in below two papers.</p>   
+            <h4 class="startOfPaper">Guoxin Liu, Haiying Shen, Harrison Chandler</h4>
+            <li class="research_papers"><a class="research_papers" href="research_pdf/hadoop1.pdf" rel="external" target="_blank">
+            Selective Data Replications for Online Social Network with distributed Datacenters</a>, 
+            <em>IEEE Transactions on Parallel and Distributed Systems</em>, 2016</li> 
+
+            <h4>Hung-Chang Hsiao, Haiying Shen</h4>
+            <li class="research_papers"><a class="research_papers" href="research_pdf/hadoop2.pdf" rel="external" target="_blank">
+            Load Rebalancing for Distributed File Systems in Clouds</a>, 
+            <em>IEEE Transactions on Parallel and Distributed Systems</em>, 2013</li>
+
+            <br> <br>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,115 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 850px;
+}
+
+h1.name_en {  
+    margin: 5px 0 0 0 ;
+    padding: 60px 0 0 0;
+    letter-spacing: -1px;
+    text-align: left;
+    font-size: 220%;
+
+}
+
+h2.name_ch {
+    margin: -10px 0 0 0;
+    letter-spacing: -1px;
+    text-align: left;
+    font-size: 160%;
+}
+
+img.my_photo {
+    float: right;
+}
+
+nav {
+    margin: 60px 0 0 0;
+    border: red;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a#ch {
+    color: rgb(102, 164, 245);
+}
+
+a:hover {
+    text-decoration: underline;  
+}
+
+a.name:hover{
+    text-decoration: none;
+}
+
+nav ul{
+    padding: 0 0 0 0;
+}
+
+nav li {
+    display: inline-block;
+    height: 20px;
+    width: 205px;
+    font-size: 15px;
+    border-left: 2px solid rgb(102, 164, 245);
+    border-right: 2px solid rgb(102, 164, 245);
+}
+
+h1.page_name{
+    padding: 10px 0 0 0;
+    font-size: 25px;
+    text-align: left;
+    border-bottom: 1px solid #999;
+}
+
+div.content {
+    text-align: left;
+    padding: 0 0 0 10px;
+}
+
+a.home_pages {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a.about_me {
+    text-decoration: underline;
+}
+
+ul.facts{
+    margin: 0 0 50px 0;
+}
+
+img.guitar {
+    margin: 0 0 20px 30px;
+}
+
+img.spur {
+    margin: 0 0 20px 50px;
+}
+
+a.research_pages {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a.research_papers {
+    text-decoration: underline;
+}
+
+hr.research_break {
+    margin: 30px 0 40px 0;
+}
+
+
+h4.startOfPaper {
+    padding: 15px 0 0 0;
+}
