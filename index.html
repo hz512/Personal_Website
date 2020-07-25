@@ -4,6 +4,8 @@
   <title>Haoran Zhu : home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.ico" >
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -15,7 +17,8 @@
   }
   </style>
 </head>
-<body>
+
+<body class="body">
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <a class="navbar-brand" href="index">Haoran (Henry) Zhu</a>
@@ -24,11 +27,14 @@
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
+    <li class="nav-item">
+        <a class="nav-link" href="index">Home</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="research">Research</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="project">Project</a>
+        <a class="nav-link" href="projects">Project</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="aboutme">About Me</a>
@@ -37,52 +43,66 @@
   </div>  
 </nav>
 
-<div class="container" style="margin-top:30px">
+<div class="container" id = "main_body">
   <div class="row">
-    <div class="col-sm-4">
-      <h2>About Me</h2>
-      <h5>Photo of me:</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-      <h3>Some Links</h3>
-      <p>Lorem ipsum dolor sit ame.</p>
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <hr class="d-sm-none">
-    </div>
-    <div class="col-sm-8">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-      <br>
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <div class="col-md-12">
+      <div class="page_header">
+        <ul class="list_inline"> 
+          <li class="list_inline_item"> 
+            <img class="my_photo" src="images/me.jpg" alt="a photo of myself">
+          </li>
+          <li class="list_inline_item"> 
+              <div class="personal_info">
+                <h3 class="name_en">Haoran (Henry) Zhu</h3>
+                <img class="name_ch" src="images/name_CH.jpg" alt="my name in Chinese">
+                <br>
+                <div class="links">
+                  M.S. Computer Science Student at Columbia University
+                  <br>
+                  <a href="resume.pdf" rel="external" target="_blank"><span lang="fr">My Résumé</span></a>
+                  <br>
+                  <a href="https://www.linkedin.com/in/haoranzhu0512/" rel="external" target="_blank">LinkedIn page</a>
+                  <br>
+                  <a href="https://github.com/hz512/" rel="external" target="_blank">GitHub page</a>
+                </div>
+                <h5 class="contact_info">Contact Info: </h5>
+                <div class="contact_info"> 
+                  Email: hz2712 [at] columbia [dot] edu
+                  <br>
+                  Phone: (+1) 434-[466]-2282 (U.S.); (+86) 186[4604]2872 (China)
+                </div>
+              </div>
+          </li>
+        </ul>
+      </div>
+      <h3 class="home">Home</h3>
+      <div class="bio">
+        <p>
+          Welcome to my homepage! Please use the menu on top to navigate through pages. 
+          <br>
+          I am an incoming M.S. student in the 
+          <a href="https://www.cs.columbia.edu/" rel="external" target="_blank">Department of Computer Science</a> at
+          <a href="https://www.columbia.edu/" rel="external" target="_blank">Columbia University</a>.
+          I'll start my study in September 2020. Right before that, I received my B.S. degree in Computer Science 
+          and B.A. degree in Mathematics at <a class="reg_link" href="https://www.virginia.edu/" rel="external" target="_blank">
+          University of Virginia</a>.
+          <br>
+          Right now, I work under
+          <a href="http://www.cs.virginia.edu/~hs6ms/" rel="external" target="_blank">Dr. Haiying shen</a> 
+          in <a href="https://engineering.virginia.edu/sites/default/files/shen.pdf"
+          rel="external" target="_blank">
+          Pervasive Communications Laboratory</a> with a primary focus on generative models and their applications in 
+          self-driving and smart buildings. I am very fortunate to have the opportunity of working with many excellent fellows.
+        </p>
+      </div>
     </div>
   </div>
 </div>
 
-<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-  <div class="container text-center">
-    <small>Last Updated: 07/24/2020</small> <br>
-    <small>Powered by <a href="http://getbootstrap.com" target="_blank">Bootstrap</a></small>
-  </div>
+<footer id="footer" class="bg-dark text-white-50"><small>
+  Last Updated: 07/24/2020
+  <br>
+  Powered by <a href="http://getbootstrap.com" target="_blank">Bootstrap</a></small>
 </footer>
 
 </body>

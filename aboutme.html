@@ -1,71 +1,107 @@
 <!DOCTYPE html>
-<html lang="en"> 
-    <head> 
-        <meta charset="utf-8" />
-        <link rel="icon" href="favicon.ico">
-        <title>Haoran Zhu: about me</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<html lang="en">
+<head>
+  <title>Haoran Zhu : home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.ico" >
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+</head>
 
-    <body>
-        <header>
-            <img class="my_photo" src="images/me.jpg" alt="a photo of me" width=120px>
-            <h1 class="name_en"><a class="name" href="index">Haoran (Henry) Zhu</a></h1>
-            <h2 class="name_ch" lang="zh-Hans"><a class="name" id="ch" href="index">朱浩然</a></h2>
-            <nav>
-                <ul>
-                    <li class="home"><a href="index">Home</a></li>
-                    <li class="research"><a href="research">Research</a></li>
-                    <li class="code"><a href="code">Code</a></li>
-                    <li class="aboutme"><a href="aboutme">About Me</a></li>
-                </ul>
-            </nav>
-            <h1 class="page_name">About Me</h1>
-        </header>
+<body class="body">
 
-        <div class="content">
-            <p>This page shares some interesting things (at least I believe is interesting) about myself. </p>
-            <ul class="facts"> 
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="index">Haoran (Henry) Zhu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+    <li class="nav-item">
+        <a class="nav-link" href="index">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="research">Research</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projects">Project</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutme">About Me</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" id = "main_body">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="page_header">
+        <h3 class="page_name">About Me</h3>
+      </div>
+      <div class="body_content">
+          <p>This page shares some fun facts (at least I believe is fun) about myself. </p>
+          <ul class="fun_facts"> 
                 <li>
                     I was born in Harbin, a city in the northeast China. Temperature there can 
                     reach -20 degrees Farenheit in winter. 
                 </li>
-                <br>
                 <li>
                     I speak Chinese (native), English (fluent) and Japanese (moderate).
                 </li>
-                <br>
                 <li>
-                    I am a big fan of <a class="about_me" href="https://www.google.com/search?q=tottenham+hotspur&oq=tottenham+hotspur&aqs=chrome..69i57j69i59j69i60l4.46796j0j7&sourceid=chrome&ie=UTF-8"
+                    I am a big fan of <a href="https://www.tottenhamhotspur.com/"
                     rel="external" target="_blank">
                         Tottenham Hotspur F.C.</a>. COYS!
                 </li>
-                <br>
                 <li>
                     My motto: Audere est Facere (To dare is to do). It's also Spurs club motto.
                 </li>
-                <br>
                 <li>
-                    My favorite show: Seinfeld
+                    My favorite show: 
+                    <a href="https://en.wikipedia.org/wiki/Seinfeld"
+                    rel="external" target="_blank">
+                    Seinfeld</a>
                 </li>
-                <br>
                 <li>
                     I play guitar, both electric guitar and acoustic guitar. I began learning to play guitar when I was 14. 
                 </li>
-                <br>
                 <li>
-                    My favorite singer (for now): <a class="about_me" href="https://www.google.com/search?q=karen+souza&oq=karen+&aqs=chrome.0.69i59j69i57j0l5j69i60.1246j0j7&sourceid=chrome&ie=UTF-8"
+                    My favorite singer (for now): <a href="https://www.youtube.com/channel/UC3gXZ8KfNQpt5N9n4UyjqeQ"
                     rel="external" target="_blank">
                     Karen Souza</a> 
                 </li>
-                <br>
                 <li>
-                    I love spending time and effort studying and solving problems. It makes me happy :)
+                    I love Classical Chinese poetry. My favorite one:
+                    <a href="https://en.wikipedia.org/wiki/Li_Sao" rel="external" target="_blank">
+                    Li Sao <span lang="zh-Hans">(离骚)</span></a>
+                </li>
+                <li>
+                    I enjoy spending time and effort studying and solving problems. It makes me happy :)
                 </li>
             </ul>
-            
-            <img class="guitar" src="images/guitar.jpg" alt="me playing my guitar" width=300px>
-            <img class="spur" src="images/spur.jpg" alt="tottenham hotspur" width=300px height=195px>    
-        </div>
-    </body>
+            <img class="fun_pics" src="images/guitar.jpg" alt="me playing my guitar">
+            <img class="fun_pics" src="images/spur.jpg" alt="tottenham hotspur" height=195px>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer id="footer" class="bg-dark text-white-50"><small>
+  Last Updated: 07/24/2020
+  <br>
+  Powered by <a href="http://getbootstrap.com" target="_blank">Bootstrap</a></small>
+</footer>
+
+</body>
 </html>
