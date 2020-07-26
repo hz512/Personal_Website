@@ -77,6 +77,7 @@ h3.home {
 
 div.bio {
     margin: 0 3px 0 8%;
+    line-height: 1.25rem;
 
 }
   
@@ -93,6 +94,7 @@ footer#footer {
 
 div.body_content {
     margin: 15px 3px 0 8%;
+    line-height: 1.25rem;
 }
 
 ul.fun_facts {
@@ -106,6 +108,10 @@ img.fun_pics {
 
 p.page_intro {
     line-height: 0.98rem;
-    font-size: 0.90rem;
+    font-size: 0.85rem;
     margin-top: -10px;
+}
+
+span.group_members {
+    color: blueviolet;
 }
