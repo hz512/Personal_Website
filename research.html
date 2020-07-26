@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Haoran Zhu : home</title>
+  <title>Haoran Zhu : research</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="favicon.ico" >
@@ -52,7 +52,7 @@
       <div class="body_content">
             <p class = "page_intro">This pages states some details about the research work I am currently doing and have done.</p>
             
-            <span class="tab">I work under
+            <span class="tab">As an undergraduate CS student at UVA, I work under
             <a href="http://www.cs.virginia.edu/~hs6ms/" rel="external" target="_blank">Dr. Haiying shen</a> 
             in <a href="https://engineering.virginia.edu/sites/default/files/shen.pdf"
             rel="external" target="_blank">
@@ -61,7 +61,75 @@
                 Ankur Sarker</a>.
             <br>
             <span class="tab">We are currently focusing on generative models (namely, GAN and VAE) and their applications in self-driving.
-            
+
+
+            <hr>
+            <h5>Deep Learning Based Occupants’ Activity Prediction Towards Designing A Smart Building Assistant System</h5> 
+            <span class="tab">In Fall 2019, our research primarily focused on the application of deep learning in smart buildings. 
+            Several Ph.D. students in the lab and I propose a smart building assistance system consisting of different 
+            sensors data analysis and DNN-based prediction model to improve the comfort level of building 
+            occupants and reduce energy consumption.
+            <ul class="list_inline">
+                <li class="list_inline_item">
+                    <img class="smart_building_system_overview" src="research_images/smart_building_system_overview.jpg" 
+                    alt="Overview of the proposed smart building system">
+                </li>
+                <li class="list_inline_item" style="max-width: 690px;">
+                    <span class="tab">We collected a year-long smart building dataset from four different data sources (i.e., sensors, calendar,
+                    weather, and survey). Then we proposed a support vector regression based prediction model and a hybrid DNN model 
+                    consisting of several RNN blocks and a feed-forward DNN block so that different physical features (e.g., 
+                    lighting) can be predicted for different building activities (e.g., meeting).
+                    <br>
+                    <span class="tab">Extensive experimental studies was conducted to evaluate the performance of the 
+                    proposed prediction models and the activity-wise comfort levels. Experiments reveal that the proposed system is 
+                    able to increase occupants’ comfortability by adaptively changing the indoor environmental features (e.g., 
+                    temperature) and reducing the gaps between indoor and outdoor environments.
+                    <br>
+                    <span class="tab">Check out
+                    <a href="research_pdf/smart_building_paper.pdf" target="_blank">the paper</a> for more details.
+                </li>
+            </ul>
+            Below are some papers that may give you a basic idea of the concept of smart building designs.
+            <br>
+             Bruna Faitão Balvedi, Enedir Ghisi, Roberto Lamberts <br>
+             <li><a href="research_pdf/smart_building1.pdf" rel="external" target="_blank">
+                 A Review of Occupant Behaviour in Residential Buildings</a>, 
+                 <em>Energy and Buildings</em>, 2018.</li>
+
+             Varick L. Erickson, Miguel A. Carreira-Perpinan, Alberto E. Cerpa<br>
+             <li><a href="research_pdf/smart_building2.pdf" rel="external" target="_blank">
+                 Occupancy Modeling and Prediction for Building Energy Management</a>, 
+                 <em>ACM Transactions on Sensor Networks</em>, 2014.</li>
+
+            Tianzhen Hong, Sarah C. Taylor-Lange, Simona D'Oca, Da Yan, Stefano P. Corgnati
+            <li><a href="research_pdf/smart_building3.pdf" rel="external" target="_blank">
+                Advances in Research and Applications of Energy-Related Occupant Behavior in Buildings</a>, 
+                <em>Energy and Buildings</em>, 2015.</li>
+
+            <hr>
+
+            <h5>Implementation of a fully distributed load rebalancing algorithm on MapReduce</h5>
+            <span class="tab">In Spring 2019, I worked with <a href="https://www.cs.virginia.edu/~hw8c/"
+                class= "research_pages" rel="external" target="_blank">Haoyu Wang</a> and Zetian Liu on a Hadoop MapReduce project.
+            We modified the source code of MapReduce so that we could implement a fully distributed load rebalancing
+            algorithm on MapReduce. The ultimate goal is to realize selective data replications among diffetent datacenters.
+            <br>
+            <span class="tab">The load rebalancing algorithm is proposed and its effectiveness is thoroughly discussed and tested in 
+            below two papers.
+            <br>
+            Guoxin Liu, Haiying Shen, Harrison Chandler<br>
+            <li><a href="research_pdf/hadoop1.pdf" rel="external" target="_blank">
+            Selective Data Replications for Online Social Network with distributed Datacenters</a>, 
+            <em>IEEE Transactions on Parallel and Distributed Systems</em>, 2016</li> 
+
+            Hung-Chang Hsiao, Haiying Shen<br>
+            <li><a href="research_pdf/hadoop2.pdf" rel="external" target="_blank">
+            Load Rebalancing for Distributed File Systems in Clouds</a>, 
+            <em>IEEE Transactions on Parallel and Distributed Systems</em>, 2013</li>
+
+            <hr>
+            <br>
+            <br>
       </div>
     </div>
   </div>

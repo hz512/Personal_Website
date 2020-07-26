@@ -115,3 +115,9 @@ p.page_intro {
 span.group_members {
     color: blueviolet;
 }
+
+/* research.html */
+
+img.smart_building_system_overview{
+    width: 350px;
+}
